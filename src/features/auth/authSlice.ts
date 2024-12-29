@@ -5,7 +5,7 @@ export const registerUser = createAsyncThunk(
   "auth/register",
   async (userData: {name:string, email: string; password: string }, thunkAPI) => {
     try {
-      const response = await axios.post("http://server-invoice.vercel.app/api/auth/register", userData);
+      const response = await axios.post("https://server-invoice.vercel.app/api/auth/register", userData);
       return response.data; 
     } catch (error: unknown) {
       if (axios.isAxiosError(error) && error.response) {
