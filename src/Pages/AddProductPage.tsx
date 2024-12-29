@@ -3,8 +3,6 @@ import ProductForm from "../components/ProductForm";
 import ProductTable from "../components/ProductTable";
 import { useDispatch } from "react-redux";
 import { setCurrentPage } from "../features/Navbar/navbarSlice";
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { RootState } from "@/app/store";
 import axios from "axios";
 
 const AddProductsPage = () => {

@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/autoplay";
 import { useDispatch } from "react-redux";
 import { setCurrentPage } from "../features/Navbar/navbarSlice";
 import { useNavigate } from "react-router-dom";
