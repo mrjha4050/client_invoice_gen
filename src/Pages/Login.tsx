@@ -23,7 +23,7 @@ const LoginPage = () => {
 
     try {
       const response = await axios.post(
-        "https://server-invoice.vercel.app/api/auth/login",
+        "http://server-invoice.vercel.app/api/auth/login",
         {
           email,
           password,
@@ -63,14 +63,14 @@ const LoginPage = () => {
           >
             <SwiperSlide>
               <img
-                src="https://res.cloudinary.com/dalptk18r/image/upload/v1735464567/munbtcce96vvsrbzzspl.png"
+                src="http://res.cloudinary.com/dalptk18r/image/upload/v1735464567/munbtcce96vvsrbzzspl.png"
                 alt="Slide 1"
                 className="w-full h-[600px] object-cover rounded-xl"  
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="https://res.cloudinary.com/dalptk18r/image/upload/v1735465382/ho677d0iqenwbips43tr.png"
+                src="http://res.cloudinary.com/dalptk18r/image/upload/v1735465382/ho677d0iqenwbips43tr.png"
                 alt="Slide 2"
                 className="w-full h-[600px] object-cover rounded-xl" // Increased height
               />

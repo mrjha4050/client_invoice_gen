@@ -84,7 +84,7 @@ const Signup = () => {
         </div>
         <div className="hidden lg:block">
           <img
-            src="https://res.cloudinary.com/dalptk18r/image/upload/v1735332933/zgybhegmtfkrijyb6q7d.png"
+            src="http://res.cloudinary.com/dalptk18r/image/upload/v1735332933/zgybhegmtfkrijyb6q7d.png"
             alt="Banner"
             className="rounded-lg shadow-lg max-w-lg h-70 w-70"
           />
