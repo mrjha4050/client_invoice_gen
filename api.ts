@@ -1,11 +1,13 @@
+// client/api.ts 
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://server-invoice.vercel.app", 
+  baseURL: process.env.REACT_APP_BACKEND_URL, 
   headers: {
     "Content-Type": "application/json",
   },
-  withCredentials: true, 
+  withCredentials: true,
 });
+
 
 export default api;
