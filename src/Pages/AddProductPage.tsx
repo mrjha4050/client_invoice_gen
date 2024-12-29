@@ -30,7 +30,7 @@ const AddProductsPage = () => {
       `;
   
       const response = await axios.post(
-        "http://localhost:3000/api/invoices/generate-pdf",
+        "https://server-invoice.vercel.app/api/invoices/generate-pdf",
         { htmlContent },
         {
           headers: { Authorization: `Bearer ${token}` },

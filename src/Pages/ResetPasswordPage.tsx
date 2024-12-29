@@ -13,7 +13,7 @@ const ResetPasswordPage = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:3000/api/auth/reset-password", {
+      const response = await axios.post("https://server-invoice.vercel.app/api/auth/reset-password", {
         token,
         password,
       });

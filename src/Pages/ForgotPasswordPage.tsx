@@ -9,7 +9,7 @@ const ForgotPasswordPage = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:3000/api/auth/forgot-password", { email });
+      const response = await axios.post("https://server-invoice.vercel.app/api/auth/forgot-password", { email });
       setMessage(response.data.message);
     } catch (err: unknown) {
       if (axios.isAxiosError(err) && err.response) {
